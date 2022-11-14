@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -19,9 +22,18 @@ body {
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
+    padding: 0;
 }
 
+li,
+.hero-1 p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .hero {
     background-color: #1F2937;
     padding: 90px;
@@ -35,12 +47,19 @@ ul {
     flex-direction: column;
 }
 
+.hero-1 h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .signup-btn {
     width: 110px;
     padding: 10px;
     border-radius: 8px;
     background-color: #3882f6;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .images {
@@ -55,4 +74,47 @@ ul {
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.action {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action, h4 p {
+    color: #F9FAF8;
+    flex: 1;
+}
+
+button .signup-box
+{
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    
 }
