@@ -167,6 +167,14 @@ li,
     flex-shrink: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
+.img-itm a {
+    color: #1F2937;
+}
+
 .footer {
     display: flex;
     align-items: center;
